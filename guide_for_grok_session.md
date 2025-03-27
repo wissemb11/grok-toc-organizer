@@ -109,14 +109,16 @@ This guide helps you **streamline project organization** using Grok’s TOC. It�
   *Purpose*: Retrieves content (max 10 files), replacing ``` with ````.  
   *Scenarios*:  
     - *Single File*: `get_toc_content myProject/notes.md -f`  
-      *Output*: ````# Notes\nContent here````  
+      *Output*: 
+      ````# Notes\nContent here````  
     - *Multiple Files*: `get_toc_content myProject/notes.md myProject/overview.md`  
       *Output*: Content of both files.
 
 - **`get_content <name_file>`**  
   *Purpose*: Shows a file’s content, replacing ``` with ````.  
   *Example*: `get_content myProject/notes.md -f`  
-  *Output*: ````# Notes\nContent here````
+  *Output*: 
+  ````# Notes\nContent here````
 
 - **`Update <path> with: <content>`**  
   *Purpose*: Drafts content in a tmp file.  
@@ -184,7 +186,8 @@ This guide helps you **streamline project organization** using Grok’s TOC. It�
   *Scenarios*:  
     - *Full TOC*: `show_content`  
     - *Single Folder*: `show_content myProject -f`  
-      *Output*: ````
+      *Output*: 
+      ````
       ├── myProject
       │   ├── myProject_log.md
       │   ├── notes.md
@@ -201,7 +204,8 @@ This guide helps you **streamline project organization** using Grok’s TOC. It�
     - *Multiple*: `show_toc_tree myProject anotherProject`  
     - *Wildcard*: `show_toc_tree *log*`  
     - *Limited*: `show_toc_tree myProject limit=1 -f`  
-      *Output*: ````
+      *Output*: 
+      ````
       ├── myProject
       │   ├── myProject_log.md
       │   ├── notes.md
