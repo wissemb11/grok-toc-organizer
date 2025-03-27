@@ -1,0 +1,9 @@
+# Ignore everything
+# *
+# !/dist/
+# !/dist/**
+# !/package.json
+# !readme.md
+grokToc.png
+grokToc0.png
+articleTOC.md
